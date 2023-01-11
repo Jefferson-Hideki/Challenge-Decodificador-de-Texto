@@ -1,0 +1,246 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+
+.img0{
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+.alura{
+    margin: 80px;
+    position: relative;
+    font-size: 50px;  
+    border-radius: 5px;  
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+span {
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: -9%;
+    color: #525252;
+}
+
+.content {
+    background-image: url("https://gicondominial.com.br/blog/wp-content/uploads/2019/09/certificado-digital-para-condominios-650x427.jpg");
+    /* background-color: #fbf8ff;*/
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    gap: 30px;
+}
+
+.logotipo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 38px;
+    font-weight: 900;
+    color: #303030;
+    cursor: default;
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+    transition: 0.2s;
+}
+
+a:hover {
+    letter-spacing: 2px;
+}
+
+.input {
+    flex-direction: column;
+    background-color: gainsboro;
+    width: 800px;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    border: 5vh;
+    border-radius: 5vh;
+}
+
+#input-text {
+    height: 350px;
+    width: 85%;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+textarea::placeholder {
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightsteelblue;
+    height: 80vh;
+    width: 300px;
+    padding: 25px;
+    border-radius: 30px;
+    border: 2px solid #000000;
+    box-shadow: 5px 5px 0 black;
+    font-size: 20px;
+}
+
+#outputText {
+    height: 280px;
+    padding-right: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    color: black;
+    text-align: justify;
+    background-color: transparent;
+}
+
+#text {
+    width: 100%;
+    height: 425px;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    resize: none;
+    background-color: lightsteelblue;
+}
+
+::selection {
+    background-color: rgb(8, 8, 73);
+    color: white;
+}
+
+.btn-copiar {
+    position: absolute;
+    bottom: 90px;
+    background-color: darkblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    font-size: 17px;
+    color: white;
+    margin-right: 10px;
+    box-shadow: 5px 5px 0 black;
+    transition: 0.15s;
+}
+
+.btn-copiar:hover {
+    background-color: royalblue;
+    box-shadow: 2px 2px 0 black;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 95%;
+    opacity: 0.2;
+}
+
+.img2{
+    margin: 0px 15px;
+    color: white;
+    font: bold;
+}
+
+.buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.info {
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+img{
+    width: 20px
+}
+
+.btn-criptografar {
+    background-color: blue;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    font-size: 17px;
+    color: white;
+    margin-right: 30px;
+    box-shadow: 5px 5px 0 black;
+    transition: 0.15s;
+     
+}
+
+.btn-criptografar:hover {
+    background-color: mediumblue;
+    box-shadow: 2px 2px 0 black;
+    cursor: pointer;
+}
+
+.btn-descriptografar {
+    background-color: mediumblue;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    font-size: 17px;
+    color: white;
+    margin-left: 10px;
+    box-shadow: 5px 5px 0 black;
+    transition: 0.15s;  
+}
+
+.btn-descriptografar:hover {
+    background-color: mediumblue;
+    box-shadow: 2px 2px 0 black;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    position: absolute; 
+    flex-direction: column;
+    text-align: center;      
+    font-size: 18px;
+    color: black;
+    height: 3.5rem; 
+    width: 100%; 
+    bottom: 0px;
+}
+.container{
+    color: white;
+    text-align: center;
+    display: inline;
+}
